@@ -1,64 +1,80 @@
-# 🔐 SafePass | Password Generator & History
+# 🔐 SafePass  
+### Modern Android Password Generator
 
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Material Design](https://img.shields.io/badge/Material--Design-757575?style=for-the-badge&logo=material-design&logoColor=white)
+![Min API](https://img.shields.io/badge/Min%20API-24-blue?style=for-the-badge)
 
-An elegant and robust Android application designed to generate ultra-secure passwords with real-time history tracking. This project implements modern Android UI patterns and seamless navigation.
+> A modern, secure and intuitive Android application for generating strong passwords with real-time session history.
 
----
-
-## 🚀 Key Features
-
-* **Customizable Strength:** Adjust password length from 0 to 32 using a smooth `SeekBar`.
-* **Granular Filters:** Dedicated `Switches` for Uppercase, Numbers, and Special Symbols.
-* **Modern UX:** WhatsApp-inspired `BottomNavigationView` for fluid screen transitions.
-* **Quick Copy:** One-tap clipboard integration with instant `Toast` feedback.
-* **Session History:** Automatic persistence of generated passwords in a clean `RecyclerView` list.
+SafePass was built following modern Android development best practices, focusing on clean UI, seamless navigation, and efficient state management.
 
 ---
 
-## 🛠️ Technical Challenges Solved
+## ✨ Features
 
-### 📱 Challenge 1: Navigation UX
-Implemented the **Jetpack Navigation Component** to handle fragment switching. The `BottomNavigationView` is synchronized with the `NavGraph` to ensure a native, responsive feel.
+### 🔐 Smart Password Generation
+- Adjustable length (0–32 characters)
+- Uppercase letters toggle
+- Numbers toggle
+- Special characters toggle
+- Real-time generation feedback
 
-### 💾 Challenge 2: Persistence & Logic
-Developed a **Singleton-based storage** system using Kotlin `Objects`. This allows data to flow seamlessly between the Generator and History fragments without the overhead of a database.
+### 📋 Instant Copy
+- One-tap clipboard copy
+- Immediate visual feedback using `Toast`
 
----
-
-## 📐 Architecture & Tools
-
-| Tool | Purpose |
-| :--- | :--- |
-| **ViewBinding** | Safe interaction with UI components |
-| **Fragments** | Modularity between Generator and History |
-| **CardView** | Elevated UI for password highlighting |
-| **RecyclerView** | Memory-efficient list rendering |
-
----
-
-## 📺 Demonstration
-
-> [!IMPORTANT]
-> **Watch the full walkthrough here:** [[Link to Unlisted YouTube Video](PASTE_YOUR_LINK_HERE)](https://youtu.be/vJZwgg3N4gY)
+### 📜 Session History
+- Automatically stores generated passwords
+- Clean and responsive `RecyclerView`
+- Session-based persistence
 
 ---
 
-## Images
+## 🏗️ Architecture
 
-<img width="317" height="667" alt="image" src="https://github.com/user-attachments/assets/b6f3679b-2d78-4582-8c8c-5fb65b9070c9" />
-<img width="317" height="667" alt="image" src="https://github.com/user-attachments/assets/500fe40f-48f7-436a-99eb-c3154535561f" />
+SafePass follows a modular structure using modern Android components.
 
-
-## 🏁 Setup
-
-1.  **Clone:** `git clone https://github.com/youruser/repo.git`
-2.  **Open:** Import into Android Studio (Ladybug or newer).
-3.  **Run:** Target API 24 or higher.
+- **Fragments** – Separation between Generator and History screens  
+- **ViewBinding** – Type-safe UI access  
+- **RecyclerView** – Optimized list rendering  
+- **CardView** – Modern elevated UI components  
+- **Singleton Pattern (Kotlin Object)** – Lightweight in-memory data persistence  
 
 ---
+
+## 🧭 Navigation
+
+The app uses:
+
+- `BottomNavigationView` for smooth screen switching  
+- `Jetpack Navigation Component` for structured fragment management  
+
+This ensures a native Android navigation experience.
+
+---
+
+## 📸 Screenshots
+
 <p align="center">
-  Made with ❤️ for Android Mobile Development Activity
+  <img width="300" src="https://github.com/user-attachments/assets/b6f3679b-2d78-4582-8c8c-5fb65b9070c9" />
+  <img width="300" src="https://github.com/user-attachments/assets/500fe40f-48f7-436a-99eb-c3154535561f" />
 </p>
+
+---
+
+## 🎥 Demo
+
+> ⚠ Replace the link below with your video
+
+[Watch the full walkthrough](https://youtu.be/YOUR_VIDEO_LINK)
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/yourusername/safepass.git

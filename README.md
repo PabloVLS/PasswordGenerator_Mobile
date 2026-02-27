@@ -46,6 +46,12 @@ Developed a **Singleton-based storage** system using Kotlin `Objects`. This allo
 
 ---
 
+## Images
+
+<img width="317" height="667" alt="image" src="https://github.com/user-attachments/assets/b6f3679b-2d78-4582-8c8c-5fb65b9070c9" />
+<img width="317" height="667" alt="image" src="https://github.com/user-attachments/assets/500fe40f-48f7-436a-99eb-c3154535561f" />
+
+
 ## 🏁 Setup
 
 1.  **Clone:** `git clone https://github.com/youruser/repo.git`

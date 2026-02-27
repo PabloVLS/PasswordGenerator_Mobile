@@ -68,7 +68,7 @@ This ensures a native Android navigation experience.
 
 > ⚠ Replace the link below with your video
 
-[Watch the full walkthrough](https://youtu.be/YOUR_VIDEO_LINK)
+[Watch the full walkthrough][([https://youtu.be/YOUR_VIDEO_LINK](https://youtu.be/vJZwgg3N4gY))](https://youtu.be/vJZwgg3N4gY)
 
 ---
 

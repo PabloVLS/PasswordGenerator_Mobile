@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/generatorFragment">
+
+    <fragment
+        android:id="@+id/generatorFragment"
+        android:name="com.example.geradordesenhas.GeneratorFragment"
+        android:label="Gerador"
+        tools:layout="@layout/fragment_generator" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.geradordesenhas.HistoryFragment"
+        android:label="Histórico"
+        tools:layout="@layout/fragment_history" />
+
+</navigation>

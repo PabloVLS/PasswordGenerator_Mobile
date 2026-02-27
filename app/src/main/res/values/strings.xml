@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GeradorDeSenhas</string>
+    <string name="click_to_generate">Clique em Gerar</string>
+    <string name="length_label">Comprimento: %d</string>
+    <string name="generate_button">GERAR SENHA</string>
+    <string name="copied_to_clip">Senha copiada</string>
+    <string name="regenerated">Senha regenerada</string>
+    <string name="min_length">Comprimento mínimo: 1</string>
+    <string name="select_one_option">Selecione ao menos uma opção (maiúsculas/números/símbolos)</string>
+    <string name="generator">Gerador</string>
+    <string name="history">Histórico</string>
+    <string name="switch_upper">Incluir Letras Maiúsculas</string>
+    <string name="switch_numbers">Incluir Números</string>
+    <string name="switch_symbols">Incluir Símbolos</string>
+</resources>

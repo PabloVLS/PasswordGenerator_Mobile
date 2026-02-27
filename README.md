@@ -42,7 +42,7 @@ Developed a **Singleton-based storage** system using Kotlin `Objects`. This allo
 ## 📺 Demonstration
 
 > [!IMPORTANT]
-> **Watch the full walkthrough here:** [Link to Unlisted YouTube Video](PASTE_YOUR_LINK_HERE)
+> **Watch the full walkthrough here:** [[Link to Unlisted YouTube Video](PASTE_YOUR_LINK_HERE)](https://youtu.be/vJZwgg3N4gY)
 
 ---
 
